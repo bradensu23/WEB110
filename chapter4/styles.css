@@ -1,0 +1,47 @@
+/* global style */
+body {
+    font-family: "Aerial", sans-serif;
+    background-color: #d7c7aa;
+    color: #926f4f;
+    font-size: 16px;
+}
+
+/* header style */
+header {
+    background-color: #00602b; /* green for Italian vibe */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* h2 and h3 style */
+h2, h3 {
+    color: #342517;
+}
+
+/* p style */
+p {
+    color: #230e06;
+    background-color: #ffffff;
+}
+
+/* highlight class */
+.highlight {
+    font-weight: bold;
+    color: #ee1e28;
+    font-style: italic;
+}
+
+/* special item class */
+.special-item {
+    background-color: #ffffff;
+}
+
+/* footer id */
+#footer {
+    text-align: center;
+    color: white;
+    background-color: #bb161d;
+}
