@@ -1,0 +1,78 @@
+/* global style */
+body {
+    font-family: "Aerial", sans-serif;
+    background-color: #d7c7aa;
+    color: #926f4f;
+    font-size: 16px;
+}
+
+/* nav style */
+
+nav {
+    height: 35px;
+}
+
+nav a:link {
+        color: #8b1010;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+nav a:hover {
+        text-decoration: underline;
+        background-color: #000;
+        color:#fff;
+}
+
+nav a:visited {
+        color:#00602b;
+        background-color: #fff;
+}
+
+/* header style */
+header {
+    background-color: #00602b; /* green for Italian vibe */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* main style */
+main {
+    font-weight: bold;
+    background-image: url(background.webp);
+    background-repeat: repeat-x;
+}
+
+/* h2 and h3 style */
+h2, h3 {
+    color: #342517;
+}
+
+/* p style */
+p {
+    color: #230e06;
+    background-color: #ffffff;
+}
+
+/* highlight class */
+.highlight {
+    font-weight: bold;
+    color: #ee1e28;
+    font-style: italic;
+}
+
+/* special item class */
+.special-item {
+    background-color: #ffffff;
+}
+
+/* footer id */
+#footer {
+    text-align: center;
+    color: white;
+    background-color: #bb161d;
+}
