@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a:focus {
-  text-decoration: underline;
+  text-decoration: none;
   color: #0073e6;
 }
 
