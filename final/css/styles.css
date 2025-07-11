@@ -670,9 +670,8 @@ footer a:hover, footer a:focus {
   }
   .about-cta .wrapper,
   .services-cta .wrapper {
-    padding-left: 2vw;
-    padding-right: 2vw;
-    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
   }
   .about-cta .btn,
   .services-cta .btn {
@@ -683,7 +682,11 @@ footer a:hover, footer a:focus {
     padding-left: 0.7em;
     padding-right: 0.7em;
     font-size: 1.05em;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
   }
+}
   .brands-row {
     gap: 1em;
   }
