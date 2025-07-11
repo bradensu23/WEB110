@@ -1,0 +1,92 @@
+<!-- Braden Suffield, July 10, 2025 - FINAL Project - Remove before publishing to domain. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Suffield&apos;s Heating, Cooling &amp; Plumbing | Family-Owned HVAC &amp; Plumbing in Marion, KS</title>
+  <meta name="description" content="Discover the story of Suffield's Heating, Cooling &amp; Plumbing.  Marion, KS&apos;s trusted, family-owned HVAC and plumbing company. Serving Marion County with heating, air conditioning, and plumbing services for over 30 years.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div id="logo">
+    <a href="index.html">
+      <img src="images/logo.png" alt="Suffield&apos;s Logo">
+    </a>
+  </div>
+  <button id="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
+    &#9776;
+  </button>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero hero-about">
+  <div class="hero-text">
+    <h1>Our Family Story</h1>
+    <p>Proudly serving Marion County, KS for generations.</p>
+  </div>
+</section>
+<div id="wrapper">
+  <main>
+    <section class="about-intro section-intro">
+      <h2 class="section-title">A Family Tradition of Service</h2>
+      <p class="intro-paragraph">
+      Suffield&apos;s Heating, Cooling &amp; Plumbing is a family-owned HVAC and plumbing company in Marion, KS, proudly serving Marion County and nearby areas for over 30 years. We provide expert air conditioning, furnace, heating, and plumbing services with a tradition of treating every customer like family and every project as a promise.      <p>
+    </section>
+    <section class="about-columns">
+      <div class="about-column with-divider">
+        <h3>Our Story</h3>
+        <p>
+        Founded on integrity and a passion for helping our community, we started with small service calls and word-of-mouth referrals in Marion, KS. Through decades of hard work and continual learning, we've grown alongside Marion County, earning the trust of families and businesses alike with reliable HVAC and plumbing solutions.       </p>
+        <p>
+          We&apos;re not just service providers—we&apos;re your friends, neighbors, and fellow Kansans, committed to delivering comfort, safety, and peace of mind to every home.
+        </p>
+      </div>
+      <div class="about-column">
+        <h3>Our Values</h3>
+        <ul class="about-values-list">
+          <li>Honest, respectful communication</li>
+          <li>Attention to detail and safety</li>
+          <li>Giving back to our local community</li>
+        </ul>
+        <p>
+          We believe in standing behind our work, supporting our employees, and giving back whenever we can. That’s the Suffield way.
+        </p>
+      </div>
+    </section>
+    <section class="about-cta">
+      <div class="wrapper">
+        <h2>Ready to Get Started?</h2>
+        <a href="services.html" class="btn btn-primary">Our Services</a>
+        <a href="contact.html" class="btn btn-secondary">Request an Appointment</a>
+      </div>
+    </section>
+  </main>
+</div>
+  <footer>
+    <p>
+      &copy; 2025 Suffield's Heating, Cooling &amp; Plumbing.<br>
+      Phone:&nbsp;<a href="tel:620-382-2980">620-382-2980</a><br>Email:&nbsp;<a href="mailto:info@suffieldhcp.com">info@suffieldhcp.com</a>
+    </p>
+  </footer>
+<script>
+  // Hamburger menu toggle
+  const navToggle = document.getElementById('nav-toggle');
+  const mainNav = document.getElementById('main-nav');
+  navToggle.addEventListener('click', function() {
+    mainNav.classList.toggle('open');
+    const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', !expanded);
+  });
+</script>
+</body>
+</html>
