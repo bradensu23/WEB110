@@ -273,6 +273,15 @@ nav#main-nav ul li a:focus {
   margin-bottom: 0.9em;
 }
 
+.wrapper {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2em 3%;
+  box-sizing: border-box;
+}
+
 /* Product page column styling */
 .product-columns {
   display: flex;
