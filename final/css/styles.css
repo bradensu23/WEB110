@@ -725,3 +725,19 @@ footer a:hover, footer a:focus {
     height: 62px;
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper, #wrapper {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .about-cta .btn,
+  .services-cta .btn {
+    width: 94vw;
+    min-width: 0;
+    max-width: 98vw;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
