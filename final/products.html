@@ -1,0 +1,105 @@
+<!-- Braden Suffield, July 11, 2025.  Final WEB100 Project.  Remove before publishing to SHCP domain. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Air Conditioners, Furnaces, Water Heaters &amp; Plumbing Products in Marion, KS | Suffield&apos;s Heating, Cooling &amp; Plumbing</title>
+  <meta name="description" content="Suffield&apos;s Heating, Cooling &amp; Plumbing offers quality air conditioners, furnaces, water heaters, softeners, and plumbing products in Marion, KS. Trusted for HVAC and plumbing installation for over 30 years.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Suffield&apos;s Logo">
+      </a>
+    </div>
+    <button id="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
+      &#9776;
+    </button>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero hero-products">
+    <div class="hero-text">
+      <h1>Quality Equipment for Every Home</h1>
+      <p>Trusted brands. Reliable performance.</p>
+    </div>
+  </section>
+
+  <div id="wrapper">
+    <main>
+      <section class="products-intro section-intro">
+        <h2 class="section-title">Quality Equipment. Reliable Brands.</h2>
+        <p class="intro-paragraph">
+        Find the best air conditioners, furnaces, water heaters, and plumbing products in Marion, KS with Suffield&apos;s Heating, Cooling &amp; Plumbing. We install, replace, and service a full range of HVAC and plumbing equipment from top brands.  We&apos;ll help you choose the right fit for your home or business and that will ensure years of reliable comfort.
+        </p>
+      </section>
+
+      <section class="product-columns">
+        <div class="product-column with-divider">
+          <img src="images/product-hvac.png" alt="Heating and Cooling Equipment" class="circle-product-img">
+          <h3>Heating &amp; Cooling</h3>
+          <ul>
+            <li>High-efficiency furnaces for reliable, energy-saving warmth.</li>
+            <li>Central air conditioning units to keep your home cool and comfortable.</li>
+            <li>Heat pumps and ductless mini-split systems for flexible, efficient heating and cooling.</li>
+            <li>Programmable thermostats for easy, convenient temperature control.</li>
+          </ul>
+        </div>
+        <div class="product-column">
+          <img src="images/product-plumbing.png" alt="Plumbing Products" class="circle-product-img">
+          <h3>Plumbing</h3>
+          <ul>
+            <li>Water heaters (tank and tankless) for dependable hot water.</li>
+            <li>Water softeners and filtration systems for cleaner, better-tasting water.</li>
+            <li>Garbage disposals for hassle-free kitchen cleanup.</li>
+            <li>Faucets and fixtures to update and enhance your home.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="brands-logos">
+        <h2 class="brands-title">Featured Brands We Trust</h2>
+        <div class="brands-row">
+          <a href="https://www.colemanac.com/" target="_blank" rel="noopener"><img src="images/coleman.jpg" alt="Coleman Heating and Air Conditioning in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.tempstar.com/en/us/" target="_blank" rel="noopener"><img src="images/tempstar.jpg" alt="Tempstar Heating and Cooling in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.goodmanmfg.com/" target="_blank" rel="noopener"><img src="images/goodman.jpg" alt="Goodman Heating and Cooling in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.bradfordwhite.com/" target="_blank" rel="noopener"><img src="images/bradfordwhite.jpg" alt="Bradford White Water Heaters in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.deltafaucet.com/" target="_blank" rel="noopener"><img src="images/deltafaucets.jpg" alt="Delta Faucets in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.carrier.com/residential/en/us/" target="_blank" rel="noopener"><img src="images/carrier.jpg" alt="Carrier Heating and Cooling in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.york.com/residential-equipment/heating-and-cooling" target="_blank" rel="noopener"><img src="images/york.jpg" alt="York Heating and Cooling in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.armstrongair.com/" target="_blank" rel="noopener"><img src="images/armstrong.jpg" alt="Armstrong Air Conditioning in Marion, KS" class="brand-logo"></a>
+          <a href="https://www.kohler.com/en" target="_blank" rel="noopener"><img src="images/kohler.jpg" alt="Kohler Kitchen and Bath in Marion, KS" class="brand-logo"></a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p>
+      &copy; 2025 Suffield's Heating, Cooling &amp; Plumbing.<br>
+      Phone:&nbsp;<a href="tel:620-382-2980">620-382-2980</a><br>Email:&nbsp;<a href="mailto:info@suffieldhcp.com">info@suffieldhcp.com</a>
+    </p>
+  </footer>
+  <script>
+    // Hamburger menu toggle
+    const navToggle = document.getElementById('nav-toggle');
+    const mainNav = document.getElementById('main-nav');
+    navToggle.addEventListener('click', function() {
+      mainNav.classList.toggle('open');
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', !expanded);
+    });
+  </script>
+</body>
+</html>

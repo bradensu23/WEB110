@@ -1,0 +1,103 @@
+<!-- Braden Suffield, July 10, 2025 - FINAL Project - Remove before publishing to domain. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plumbing, Heating &amp; Cooling Services in Marion, KS | Suffield's Heating, Cooling &amp; Plumbing</title>
+  <meta name="description" content="Get expert plumbing, heating, air conditioning, and HVAC repair, installation, and emergency services in Marion, KS from Suffield's Heating, Cooling & Plumbing. Serving homes and businesses for 30+ years.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div id="logo">
+    <a href="index.html">
+      <img src="images/logo.png" alt="Suffield's Logo">
+    </a>
+  </div>
+  <button id="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
+    &#9776;
+  </button>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero hero-services">
+  <div class="hero-text">
+    <h1>Expert Services You Can Rely On</h1>
+    <p>From repairs to new installs, we've got you covered.</p>
+  </div>
+</section>
+<div id="wrapper">
+  <main>
+    <section class="services-intro section-intro">
+      <h2 class="section-title">Full-Service Solutions for Comfort &amp; Safety</h2>
+      <p class="intro-paragraph">
+      Suffield's Heating, Cooling &amp; Plumbing is your local expert for plumbing, heating, and air conditioning services in Marion, KS and surrounding areas. We offer repairs, installations, maintenance, and 24/7 emergency service for homes and businesses with a commitment to quality and customer care.
+      </p>
+    </section>
+    <section class="service-columns">
+      <div class="service-column with-divider">
+        <img src="images/hvac-service.png" alt="Heating and Cooling Service" class="circle-service-img">
+        <h3>Heating &amp; Cooling Services</h3>
+        <ul class="service-list">
+          <li>Furnace and A/C installation.</li>
+          <li>Seasonal maintenance &amp; tune-ups.</li>
+          <li>Equipment replacement &amp; upgrades.</li>
+          <li>Indoor air quality solutions.</li>
+        </ul>
+        <ol class="service-steps">
+          <li>Schedule an appointment.</li>
+          <li>Receive a free estimate.</li>
+          <li>Enjoy efficient, reliable comfort.</li>
+        </ol>
+      </div>
+      <div class="service-column">
+        <img src="images/plumbing-service.png" alt="Plumbing Service" class="circle-service-img">
+        <h3>Plumbing &amp; Water Services</h3>
+        <ul class="service-list">
+          <li>Fixture installation &amp; repair.</li>
+          <li>Water heater service (tank &amp; tankless).</li>
+          <li>Water softeners &amp; filtration.</li>
+          <li>Emergency leak &amp; pipe repairs.</li>
+        </ul>
+        <ol class="service-steps">
+          <li>Contact us for urgent needs.</li>
+          <li>We'll dispatch a licensed expert.</li>
+          <li>Your home is safe &amp; sound.</li>
+        </ol>
+      </div>
+    </section>
+    <section class="services-cta">
+      <div class="wrapper">
+        <h2>Claim Your $15 Service Coupon</h2>
+        <a href="coupons/service-coupon-2025.pdf" class="btn btn-secondary" download>$15 Service Coupon Download</a>
+      </div>
+    </section>
+  </main>
+</div>
+  <footer>
+    <p>
+      &copy; 2025 Suffield's Heating, Cooling &amp; Plumbing.<br>
+      Phone:&nbsp;<a href="tel:620-382-2980">620-382-2980</a><br>Email:&nbsp;<a href="mailto:info@suffieldhcp.com">info@suffieldhcp.com</a>
+    </p>
+  </footer>
+<script>
+  // Hamburger menu toggle
+  const navToggle = document.getElementById('nav-toggle');
+  const mainNav = document.getElementById('main-nav');
+  navToggle.addEventListener('click', function() {
+    mainNav.classList.toggle('open');
+    const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', !expanded);
+  });
+</script>
+</body>
+</html>
